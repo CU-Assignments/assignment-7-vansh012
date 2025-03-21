@@ -1,0 +1,10 @@
+CREATE DATABASE StoreDB;
+
+USE StoreDB;
+
+CREATE TABLE Product (
+    ProductID INT PRIMARY KEY AUTO_INCREMENT,
+    ProductName VARCHAR(100) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Quantity INT NOT NULL
+);
